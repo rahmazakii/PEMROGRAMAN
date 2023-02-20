@@ -1,0 +1,61 @@
+body {
+    background-color:#55d355;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.logo {
+    background-color: rgb(11, 93, 11);
+    text-align: center;
+}
+
+.gambarlogo {
+    width: 300px;
+}
+
+.tulisan {
+    text-align: center;
+}
+
+.tulisan h3 {
+    margin-top: -50px;
+    color: white;
+}
+
+.tombol {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.tombol div {
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.187);
+    width: 90%;
+    margin: 30px auto;
+    border: 2px solid white;
+    padding: 15px 0;
+    border-radius: 30px;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(11, 93, 11);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.footer img {
+    width: 150px;
+}
+
+.tombol div:hover {
+    background-color: rgba(0, 0, 0, 0.546);
+    border: 3px solid yellow;
+    cursor: pointer;
+}
