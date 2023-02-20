@@ -53,43 +53,43 @@
             <tr>                                                        <!--Ini untuk mengatur lebar tabel dalam pixel-->
             <th width="50">No</th>                                        
             <!-- Gabung kolom nama dan alamat -->
-            <th width="350" colspan=2>Span Nama dan Alamat</th>
+            <th width="350" colspan=2>Span Nama dan Alamat</th>             <!--TAG th untuk mengatur dan mendefinisikan heading tabel--> 
             </tr>
             <!-- Baris data pertama -->
-            <tr>
-            <!-- Gabung baris 1 dan 2 -->
-            <td rowspan=2>Span baris 1 dan 2</td>
+            <tr>                                                            <!--TAG tr untuk mengatur dan mendefinisikan data pada tabel--> 
+            <!-- Gabung baris 1 dan 2 -->                           
+            <td rowspan=2>Span baris 1 dan 2</td>           
             <td>Ibnu</td>
             <td>Jl. Jombang</td>
             </tr>
             <!-- Baris data kedua -->
             <tr>
-            <td>Vita</td>
-            <td>Jl. Jakarta</td>
-            </tr>
+            <td>Vita</td>                   <!--TAG td  untuk mendefinisikan data pada tabel-->   
+            <td>Jl. Jakarta</td>            
+            </tr>       
             </table>
             <h3>Formulir Pendaftaran</h3>
-            <form action="" method="post">
-            <table border=0>
+            <form action="" method="post">          <!--TAG action untuk mendefinisikan url untuk tempat ketika form di submit -->  <!--TAG method untuk mengatur HTTP khusus untuk mengirim data--> 
+            <table border=0>                        <!--TAG untuk mengatur ukuran kotak teks--> 
             <tr>
             <td>NIK</td>
-            <td><input type="text" /></td>
+            <td><input type="text" /></td>      <!--TAG untuk mengatur dan mendefinisikan input keyboard--> 
             </tr>
             <tr>
-            <td>Nama</td>
-            <td><input type="text" /></td>
+            <td>Nama</td>                       <!--TAG untuk membuat list data pada form--> 
+            <td><input type="text" /></td>      <!--TAG untuk mengatur dan mendefinisikan input keyboard--> 
             </tr>
             <tr>
             <td>Jenis Kelamin</td>
             <td>
-            <input type="radio" />Pria
-            <input type="radio" />Wanita
-            </td>
+            <input type="radio" />Pria          <!--TAG untuk menmbuat opsi--> 
+            <input type="radio" />Wanita        <!--TAG untuk menmbuat opsi--> 
+            </td>               
             </tr> 
             <tr>
             <td>Pekerjaan</td>
             <td>
-            <select name="job">
+            <select name="job">                 <!--TAG untuk membuat opsi yang ter list, disimpan dalam "job"--> 
             <option>Guru</option>
             <option>Wiraswasta</option>
             <option>Lainnya</option>
@@ -98,11 +98,11 @@
             </tr>
             <tr>
             <td>
-            <input type="submit" value="ok" />
-            <input type="submit" value="cancel" />
+            <input type="submit" value="ok" />      <!--TAG untuk membuat opsi mengirim data dengan menampilkan "oke"--> 
+            <input type="submit" value="cancel" />  <!--TAG untuk membuat opsi tidak mengirim data, dengan menampilkan "cancel"--> 
             </td>
             </tr>
             </table>
-            </form>
+            </form>                                 <!--TAG eding form code.--> 
 </body>
 </html>
