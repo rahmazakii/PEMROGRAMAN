@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Study Case 3</title>
+</head>
+<body>
+    <table border=0 align="left" cellspacing=5 cellpadding=5  >
+        <!-- border digunakan untuk membuat tabel agar form tersusun rapih.
+             tag align digunakan untuk mengatur posisi form.
+             cellspasing digunakan untuk mengatur jarak antara garis tepi (border) bagian dalam dan luar.
+             cellspaddinging digunakan untuk mengatur jarak dari border sisi dalam tabel dengan isi text tabel itu sendiri.-->
+        <tr>        <!-- Tag tr digunakan untuk mendefinisikan kolom dalam tabel. -->
+            <td>  Nama lengkap </td>    <!-- Tag td digunakan untuk mengisikan data standar suatu tabel-->  
+            <td><input type="text" id="name" name="nama" pattern="[a-zA-Z]+" required placeholder="Masukkan Nama Lengkap Anda" style="width:200px" /> </td>
+            <!-- Tag input digunakan agar user dapat menginput data. type mendefinisikan data yang diinput berupa "text". --> 
+            <!-- Id digunakan untuk memberi nama pada inputan -->
+            <!-- pattern digunakan untuk membatasi dan memberi spesifikasi pada inputan-->
+            <!-- required placeholder digunakan untuk membuat data wajib di isi-->
+            <!-- Style digunakan untuk memberi style pada form, dalam hal ini diikuti "width" untuk mengatur ukuran-->
+            <!-- Begitu juga untuk baris selanjutnya-->
+        </tr>
+        <tr>
+            <td> Usia </td>
+            <td> <input type="text" name="nama" required placeholder="Usia anda " style="width:100px" /> (Usia 17-30)</td>
+        </tr>
+        <tr>
+            <td> Password  </td>
+            <td><input type="password" id="nama" name="nama" required placeholder="Masukkan  Password anda " style="width:200px" /></td>
+            <!-- Tag input digunakan agar user dapat menginput data, type password digunakan untuk menginput paswors agar tidak terlihat ketika di input. -->
+        </tr>
+        <tr>
+            <td> Email </td>
+            <td><input type="email" name="email" pattern=".+@globex\.com" required placeholder="Masukkan Email anda " size="30 " style="width:200px" /></td>
+            <!-- tag input digunakan agar user dapat menginput data, type "email digunakan agar input data hanya berupa email" -->
+        </tr>
+        <tr>
+            <td> Tanggal Lahir </td>
+            <td><input type="date" value="birth "></td>
+            <!-- tag input digunakan agar user dapat menginput data.  type date digunakan agar input berupa tanggal -->
+        </tr>
+        <tr>
+            <td> WEB </td>
+            <td><input type="url" name="nama" pattern=" maxlength="13" required placeholder="Masukkan Nomor telepon anda " style="width:200px" /> </td>
+            <!-- tag input digunakan agar user dapat menginput data, type data "url digunakan agar data yang di input hanya berupa url." -->
+        </tr>
+        <tr>
+           <td></td> 
+           <td>
+            <input type="submit" value="Buat akun :)">
+            <!-- input bertype sumbit digunakan untuk membuat tombol submit dan mengirimkan data. -->
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
