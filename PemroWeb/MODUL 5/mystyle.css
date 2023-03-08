@@ -1,0 +1,32 @@
+    #wrapper { /* untuk memanggil class wrapper yang telah dibuat di dokumen html */
+    margin: auto;   /* Untuk mengatur margin pada content */
+    width: 750px;   /* Digunakan untuk mengatur lebar  border */
+    border: 1px solid red; /* digunakan untuk mengatur ketebalan border dan warna border */
+    } 
+    #header {       /* untuk memanggil class header yang telah dibuat di dokumen html*/
+    height: 80px;   /* untuk mengatur tinggi border dalam lay out*/
+    border: 1px solid blue;     /* untuk mengatur ketebalan border dan warna border */
+    }
+    #inner {        /* Untuk memanggil class inner yang telah dibuat di dokumen html */
+    float: left;    /* digunakan untuk mengatur posisi content */
+    margin: 5px 0;  /* digunakan untuk mengatur margin pada content*/
+    border: 1px solid black;    /* digunakan untuk mengatur ketebalan border dan warna border */
+    }
+    #sidebar {          /* digunakan untuk memanggil class yang telah dibuat di dokumen html */
+    float: left;        /* digunakan untuk mengatur posisi content */
+    margin-right: 20px; /* digunakan untuk mengatur margin pada content */
+    width: 180px;       /* Digunakan untuk mengatur lebar  border*/
+    height: 330px;      /* untuk mengatur tinggi border dalam lay out*/
+    border: 1px solid red;  /* digunakan untuk mengatur ketebalan border dan warna border */
+    }
+    #content {      /* digunakan untuk memanggil class content yang telah dibuat di dokumen html */
+    float: left;    /* digunakan untuk mengatur posisi content */
+    width: 544px;   /* Digunakan untuk mengatur lebar  border */
+    height: 330px;  /* untuk mengatur tinggi border dalam lay out */
+    border: 1px solid green;    /* digunakan untuk mengatur ketebalan border dan warna border */
+    }
+    #footer {       /* digunakan untuk memanggil class footer yang telah dibuat di dokumen html */
+    clear: both;    /* digunakan untuk membuat bagian yang di 'clear' menjadi kosong */
+    height: 50px;   /* digunakan untuk memangatur tinggi border */
+    border: 1px solid blue; /* digunakan untuk mengatur ketebalan border dan warna pada border */
+    }

@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;   /*Digunakan untuk mengatur warna pada background */
+    margin: 10px auto;            /* mengatur margin*/
+    width: 750px;                 /* mengatur lebar*/
+    }
+header,nav,section,footer {
+    display:block;              /* mengatur elemen pada layouting agar berbanjar kebawah*/ 
+    border:1px solid blue;    /* mengatur ketebalan border dan warna border*/ 
+    }
+header{ 
+    height:80px;    /* untuk mengatur tinggi lay out */ 
+    }
+nav{
+    float:left;     /* digunakan untuk mengatur posisi content */
+    width:200px;    /* digunakan untuk mengatur lebar border content */
+    height:370px;   /* untuk mengatur tinggi lay out */ 
+    }
+section{
+    margin-left:200px;      /* digunakan untuk mengatur margin pada content */
+    width:500;              /* digunakan untuk mengatur lebar border content */
+    height:370px;           /* untuk mengatur tinggi lay out */ 
+    }
+footer{
+    clear:both;             /* digunakan untuk membuat bagian yang di 'clear' menjadi kosong */
+    height:20px;             /* untuk mengatur tinggi lay out */ 
+    }
